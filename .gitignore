@@ -1,0 +1,21 @@
+# Local Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Model weights are large binary files and should be distributed separately.
+model/**/*.bin
+model/**/*.safetensors
+model/rex-openvino/
+
+# Patient/source documents: keep local and never publish.
+input.txt
+example/*.txt
